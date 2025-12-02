@@ -131,9 +131,7 @@ worst5 = results.sort_values("error", ascending=False).head(5)
 print("\n=== 5 WORST PREDICTIONS ===")
 print(worst5[["title", "actual", "predicted", "error"]])
 
-# ================================================================
-# 9. VISUALIZATION (Slides: Evaluating Model Fit)
-# ================================================================
+# 9. VISUALIZATION 
 
 # Scatter: predicted vs actual (Slides: continuous prediction analysis)
 plt.figure(figsize=(8,6))
